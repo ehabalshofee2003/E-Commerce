@@ -10,3 +10,11 @@ use App\Http\Controllers\Api\OrderController;
 */
 
 Route::post('/orders', [OrderController::class, 'store']);
+
+
+// ==========================================
+// المتطلب الثاني: إدارة الموارد ومنع الانهيار (Rate Limiting)
+// ==========================================
+// throttle:10,1 تعني: السماح بـ 10 طلبات كحد أقصى لكل دقيقة (1 minute) لكل IP
+Route::post('/orders/protected', [OrderController::class, 'store'])
+    ->middleware('throttle:10,1'); 

@@ -15,7 +15,7 @@ class ProductSeeder extends Seeder
         Product::create([
             'name' => 'Limited Edition Gaming Mouse',
             'price' => 100.00,
-            'stock' => 5, 
+            'stock' => 20, 
         ]);
 
         // إعطاء أول مستخدم في النظام رصيد 500 لكي يتمكن من الشراء
