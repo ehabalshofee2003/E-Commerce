@@ -1,11 +1,8 @@
 # 🛒 HP E-Commerce: Concurrency & Scalability Playground
 
 ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?logo=php&logoColor=white)
-
 ![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?logo=laravel&logoColor=white)
-
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql&logoColor=white)
-
 تنويه: هذا ليس متجراً إلكترونياً تقليدياً. هذا المشروع هو بيئة اختبار وتطبيق عملي لمفاهيم البرمجة التفرعية (Concurrent Programming)، وهدفه الأساسي هو حل المشاكل غير الوظيفية (Non-Functional Requirements) التي تواجه الأنظمة ذات الضغط العالي.
 
 ---
@@ -74,7 +71,7 @@ HTTP 429 Too Many Requests
 - Database: MySQL (مع استخدام Indexes لتحسين أداء الاستعلامات)
 - Testing Tools: Custom cURL Multi-threading Scripts
 ## ⚠️ ملاحظة قبل اختبار الضغط
-` تأكد من تحديث مخزون أحد المنتجات في قاعدة البيانات ليكون رقم صغير (مثل 5)،
+  تأكد من تحديث مخزون أحد المنتجات في قاعدة البيانات ليكون رقم صغير (مثل 5)،
 ` لكي تلاحظ فرض الرفض عند تشغيل سكربتات الاختبار في مجلد scripts.
 ## 📌 ملاحظة المطور
 ` هذا المشروع تحت التطوير المستمر كبيئة لتعلم مفاهيم الـ System Design والـ Backend Engineering.
