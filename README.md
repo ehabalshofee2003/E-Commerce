@@ -1,8 +1,11 @@
 # 🛒 HP E-Commerce: Concurrency & Scalability Playground
 
 ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?logo=php&logoColor=white)
+
 ![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?logo=laravel&logoColor=white)
+
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql&logoColor=white)
+
 تنويه: هذا ليس متجراً إلكترونياً تقليدياً. هذا المشروع هو بيئة اختبار وتطبيق عملي لمفاهيم البرمجة التفرعية (Concurrent Programming)، وهدفه الأساسي هو حل المشاكل غير الوظيفية (Non-Functional Requirements) التي تواجه الأنظمة ذات الضغط العالي.
 
 ---
@@ -51,8 +54,7 @@
 ### 🔹 الاختبار الأول: التحقق من منع التضارب (Race Condition)
 
 - الأداة:  
-```bash
-php scripts/load_test.php
+ php scripts/load_test.php
 
 السيناريو:
 إرسال 50 طلب شراء متزامن (في نفس الملي ثانية) لمنتج مخزونه 5 فقط.
