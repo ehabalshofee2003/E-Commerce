@@ -20,3 +20,11 @@ php artisan serve
 📌 ملاحظة:
 هذا المشروع تحت التطوير المستمر، سيتم إضافة مفاهيم الـ Queues, Caching, وربما Microservices لاحقاً.
 
+⚡ تشغيل اختبار الضغط
+php scripts/load_test.php
+📌 ملاحظة
+هذا المشروع تحت التطوير المستمر، سيتم إضافة مفاهيم:
+
+Queues
+Caching
+وربما Microservices لاحقاً
